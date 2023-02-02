@@ -15,22 +15,22 @@ export default function Slider () {
         <AutoplaySlider
           play={true}
           cancelOnInteraction={false} // should stop playing on user interaction
-          interval={8000}
+          interval={5000}
           className="gallery-carousel"
           animation="foldOutAnimation"
           bullets={false}
         >
-            <div className="slide1">
-                <img src = {image1}/>
+            <div className="gallery-slide">
+                <img className="gallery-image"src = {image1}/>
             </div>
-            <div className="slide2">
-                <img src = {image2} height="1200px" width = "1000px" backgroundColor/>
+            <div className="gallery-slide">
+                <img className="gallery-image"src = {image2} height="1200px" width = "1000px" backgroundColor/>
             </div>
-            <div className="slide3">
-                <img src = {image1}/>
+            <div className="gallery-slide">
+                <img className="gallery-image"src = {image1}/>
             </div>
-            <div className="slide4">
-                <img src = {image2} height="1200px" width = "1000px"/>
+            <div className="gallery-slide">
+                <img className="gallery-image"src = {image2} height="1200px" width = "1000px"/>
             </div>
         </AutoplaySlider>
     )
