@@ -6,11 +6,11 @@ export default function Nav () {
     return (
         <div className='nav'>
             <Link className='nav-home' to = '/'>Home</Link>
-            <Link className='nav-about' to = '/about'>About</Link>
-            <Link className='nav-expectations' to = '/expectations'>Expectations</Link>
-            <Link className='nav-scheduling' to = '/scheduling'>Scheduling</Link>
-            <Link className='nav-specials' to = '/specials'>Specials</Link>
-            <Link className='nav-testimonials' to = '/testimonals'>Testimonials</Link>
+            <Link className='nav-styles' to = '/about'>Styles</Link>
+            <Link className='nav-pricing' to = '/expectations'>Pricing</Link>
+            <Link className='nav-about' to = '/scheduling'>About</Link>
+            <Link className='nav-wte' to = '/specials'>What to Expect</Link>
+            <Link className='nav-gallery' to = '/testimonals'>Gallery</Link>
         </div>
     )
 }
